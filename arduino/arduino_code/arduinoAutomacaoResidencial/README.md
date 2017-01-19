@@ -40,6 +40,14 @@ http://<ip>/002
 
 
 
+## Simulador 
+
+Para facilitar o desenvolvido do trabalho foi desenvolvido um site para simular o controle dos equipamentos. 
+Esse site pode ser acesso em: http://arduinofacil.hol.es/arduino
+
+
+
+
 
 
 

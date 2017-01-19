@@ -17,9 +17,8 @@
 	<script src="api.js"></script>
 	<nav>
     <div class="nav-wrapper green darken-3">
-      <a href="#!" class="brand-logo center ">Automação Residencial com Arduino</a>
-      <ul class="left hide-on-med-and-down">
-        <li><a href="arduino.html">Manual</a></li>
+      <a href="#!" class="brand-logo center ">Automação Residencial</a>
+      <ul class="left hide-on-med-and-down">     
         <li><a href="sobre.html">Sobre</a></li>
         <li class="active"><a href="index.html.html">Simulador Casa</a></li>
       </ul>
@@ -31,7 +30,10 @@
 	    <div class="row" style="margin:1px !important;padding:2px !important;">				
 			<div class="col s6" >
 				<input value="Identidicador" id="session_id" type="text" placeholder="" class="col s5">
-				<a class="waves-effect waves-light btn col s3" style="margin-right:20px;" onclick="inserir();">Inserir</a>						
+				<a class="waves-effect waves-light btn col s3" style="margin-right:20px;" onclick="inserir();">Inserir</a>
+				<a class="waves-effect waves-light btn col s3" style="margin-right:20px;" onclick="updateService();">Atualizar Estado</a>
+
+
 				
 			</div>								
 	
@@ -184,7 +186,9 @@
 			initAnimation();
 			$( document ).ready(function() {
 				initObjets("");
-				updateServiceRunning = setInterval(function(){ updateService(); }, 3000);
+				updateService(); 
+				//comentado pois o servidor free utilizando não aguenta tanta requisição	
+				//updateServiceRunning = setInterval(function(){ updateService(); }, 3000);
 			});
 		</script>	
 	</div>

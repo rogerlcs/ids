@@ -80,8 +80,9 @@ function update(){
 		
     try{    	
 	
-		clearInterval(updateServiceRunning);
-		updateServiceRunning= null;
+		//comentado pois o servidor free utilizando não aguenta tanta requisição	
+		//clearInterval(updateServiceRunning);
+		//updateServiceRunning= null;
 	
 		//showLoading(true);	
 		var id = $("#session_id").val();		
@@ -114,10 +115,11 @@ function update(){
 			}
 		  }
 		);						
-		callback.always(function() {			
+		callback.always(function() {	
+			//comentado pois o servidor free utilizando não aguenta tanta requisição	
 			//hideLoading();		
-			if(!updateServiceRunning)
-				updateServiceRunning = setInterval(function(){ updateService(); }, 3000);
+			//if(!updateServiceRunning)
+				//updateServiceRunning = setInterval(function(){ updateService(); }, 3000);
 			
 		});
 		callback.error(function() {			
