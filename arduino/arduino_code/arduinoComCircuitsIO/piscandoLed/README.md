@@ -20,11 +20,9 @@ Se você seguiu corretamente os passo você vai visualizar a seguinte imagem
 
 
 
+![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/curcuits_io1.jpg)
 
 
-
-
-(http://i.imgur.com/tIRCOsK.png)
 
 
 
