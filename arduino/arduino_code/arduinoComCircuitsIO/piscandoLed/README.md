@@ -5,9 +5,10 @@ Tutorial em video piscando led com arduino:
 https://www.youtube.com/watch?v=WaJml0QSjio
 
 
-## 1 Circuitos.io
+## Criando conta no Circuitos.io
 
-Acesso o site circuits.io e crie uma conta pra você.
+
+Acesse o site http://circuits.io e crie uma conta pra você.
 
 
 
