@@ -10,6 +10,22 @@ https://www.youtube.com/watch?v=WaJml0QSjio
 
 Acesse o site http://circuits.io e crie uma conta pra você.
 
+## Criando seu projeto
+
+1)Clique no menu create
+2)Abra eletronics labs ( Electronics Lab )
+3)New Electronics Lab
+
+Se você seguiu corretamente os passo você vai visualizar a seguinte imagem
+
+
+
+
+
+
+
+(http://i.imgur.com/tIRCOsK.png)
+
 
 
 
