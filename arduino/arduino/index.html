@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+	
+	<body>
+	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script src="canvasengine-1.3.2.all.min.js"></script>
+	<script src="api.js"></script>
+	<nav>
+    <div class="nav-wrapper green darken-3">
+      <a href="#!" class="brand-logo center ">Automação Residencial com Arduino</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="arduino.html">Manual</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li class="active"><a href="index.html.html">Simulador Casa</a></li>
+      </ul>
+    </div>
+  </nav>
+	
+	<div id='projeto_casa' style="display: block;margin:5px;">				
+	
+	    <div class="row" style="margin:1px !important;padding:2px !important;">				
+			<div class="col s6" >
+				<input value="Identidicador" id="session_id" type="text" placeholder="" class="col s5">
+				<a class="waves-effect waves-light btn col s3" style="margin-right:20px;" onclick="inserir();">Inserir</a>						
+				
+			</div>								
+	
+		</div>					
+		<canvas id="canvas_id" style="margin:0px;padding:0px;" width="800" height="500"></canvas>
+
+		<h5>
+		Utilização da api
+		</h5>
+		<div class="row">
+			<p>
+			<img src="images/numero1.png"> <strong>Lampada 1</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;lampada1&gt; - Ligar/desligar a lampada 1, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada1/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar a lamapda 1 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada1/1<br>
+				
+				Desligar a lamapda 1 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada1/0
+				<br>
+				
+			</p>
+		</div>
+		
+		<div class="row">
+			<p>
+			<img src="images/numero2.png">
+			<strong>Lampada 2</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;lampada2&gt; - Ligar/desligar a lampada 2, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada2/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar a lamapda 2 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada2/1<br>
+				
+				Desligar a lamapda 2 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada2/0
+				<br>
+			</p>
+		</div>
+		
+		<div class="row">
+			<p>
+			<img src="images/numero3.png">
+			<strong>Lampada 3</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;lampada3&gt; - Ligar/desligar a lampada 3, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada3/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar a lamapda 3 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada3/1<br>
+				
+				Desligar a lamapda 3 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada3/0
+				<br>
+			</p>
+		</div>
+		
+		<div class="row">
+			<p>
+			<img src="images/numero4.png">
+			<strong>Lampada 4</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;lampada4&gt; - Ligar/desligar a lampada 4, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada4/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar a lamapda 4 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada4/1<br>
+				
+				Desligar a lamapda 4 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada4/0
+				<br>
+			</p>
+		</div>
+		
+		<div class="row">
+			<p>
+			<img src="images/numero5.png">
+			<strong>Lampada 5</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;lampada5&gt; - Ligar/desligar a lampada 5, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada5/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar a lamapda 5 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada5/1<br>
+				
+				Desligar a lamapda 5 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada5/0
+				<br>
+			</p>
+		</div>
+		
+		
+		<div class="row">
+			<p>
+			<img src="images/numero6.png">
+			<strong>Lampada 6</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;lampada6&gt; - Ligar/desligar a lampada 6, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada6/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar a lamapda 6 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada6/1<br>
+				
+				Desligar a lamapda 6 com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada6/0
+				<br>
+			</p>
+		</div>
+		
+		
+		<div class="row">
+			<p>
+			<img src="images/numero7.png">
+			<strong>Ventilador</strong><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>
+				&lt;Ventilador&gt; - Ligar/desligar o Ventilador, &lt;ligado=1,desligado=0&gt; <br>				 
+				   http://arduinofacil.hol.es/server/index.php/house/id/&lt;id&gt;/ventilador/&lt;ligado=1,desligado=0&gt;
+				<br>
+				<br>
+				<strong>Exemplo:</strong><br>
+				Ligar o Ventilador com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/ventilador/1<br>
+				
+				Desligar o Ventilador com identificador 167<br>
+				http://arduinofacil.hol.es/server/index.php/house/update/id/167/ventilador/0
+				<br>
+			</p>
+		</div>
+		
+		
+		
+		
+		
+		<script>		
+			initAnimation();
+			$( document ).ready(function() {
+				initObjets("");
+				updateServiceRunning = setInterval(function(){ updateService(); }, 3000);
+			});
+		</script>	
+	</div>
+	</body>
+	
+</html>
