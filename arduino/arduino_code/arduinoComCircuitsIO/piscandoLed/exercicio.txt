@@ -1,0 +1,3 @@
+Adicionar mais leds.
+
+Alterar o tempo de resposta do led.

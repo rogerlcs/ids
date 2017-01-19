@@ -57,7 +57,8 @@ Se você seguiu corretamente os passo você vai visualizar a seguinte imagem:
   
   ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/ligacao_piscando_led.png)
   
-  O circuits.io cria um código pra você quando você fazer essas ligações que vai dizer ao arduino para piscar o led
+  O circuits.io cria um código pra você quando você faz essas ligações. Essa liagções dizem ao arduino para piscar o led. 
+  O código criado é destacado abaixo.
   
 ```
   // Pin 13 has an LED connected on most Arduino boards.
@@ -79,7 +80,8 @@ void loop() {
 }
  ```
 
-
+6) Para executar clique em Start simulation
+7) Para para a execução clique em Stop simulation
 
 
 
