@@ -27,27 +27,37 @@ Se você seguiu corretamente os passo você vai visualizar a seguinte imagem:
 
  Para isso vá em components como na imagem abaixo:
  
- [alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/adicionar_componentes.png)
+            
+ ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/adicionar_componentes.png)
  
  Selecionando o arduino uno r3:
  
- [alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/selecionando_arduino.png)
+ ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/selecionando_arduino.png)
  
  
  Selecionando o led:
  
- [alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/selecionando_led.png)
+ ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/selecionando_led.png)
  
  
  Selecionando um resistor:
  
- [alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/selecionando_resistor.png)
+ ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/selecionando_resistor.png)
  
  Resultado da seleção deve ser conforme na imagem abaixo:
  
- [alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/resultado_selecao.png)
+ ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/resultado_selecao.png)
  
  
+ 
+ 5) Adicione o arduino uno r3 ao projeto
+ 
+  Faça a ligação conforme a imagem exibida abaixo:
+  
+  
+  ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/ligacao_piscando_led.png)
+  
+
 
 
 
