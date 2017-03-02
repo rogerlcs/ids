@@ -1,5 +1,5 @@
 
-Especificação do Trabalho Disciplina de IDS.
+Modelo de Especificação do Trabalho Disciplina de IDS.
 
 
 ## Introdução
