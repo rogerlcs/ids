@@ -81,7 +81,7 @@ Caso de uso C01
 ![alt text](https://github.com/felipefo/ids/blob/master/arduino/imagem_tela_exemplo.png)
 
 
-## Descrição das atividade do realizadas no trabalho 
+## Descrição das atividades do realizadas no trabalho(Planejamento)
 
 ### Atividades
 
