@@ -11,13 +11,13 @@ Coloque aqui uma explicação inicial do seu trabalho explicando quais os seus obj
 
 Descrever o mini-mundo. Não deve ser maior do que 15 linhas 
 
-## Descrição dos Requisitos 
 
 
 ## Descrição do Arduino
 
 ### Quais as funcionalidades do arduino?
 
+## Descrição dos Requisitos 
 
 ### Requisitos Funcionais
 Exemplo:
@@ -38,6 +38,10 @@ Exemplo:
 Faça a prototipação das telas do sistema. Você pode adicionar as imagens ou um vídeo do sistema
 Exemplo:
 ![alt text](https://www.youtube.com/watch?v=vAp1qGp5KKk)
+
+## Project Model Canvas
+
+...
 
 
 ## Caso de Uso
