@@ -87,8 +87,11 @@ Caso de uso C01
 ### Atividades
 
 Exemplo:
+
+
+
 | Identificador        | Descrição  | Prioridade  |  Responsável |   Data |
-| ------------- |:-------------:| -----:| -----:|
+| ------------- |:-------------:|  -----:|-----:| -----:|
 | 001 | Reunião para definir como o sistema será feito e distribuição e criação da lista atividades | 100 | João | |
 | 002 | Criação do documento de especificação do trabalho   |  99 |  | |
 | 003 | Descrição dos requisitios do Sistema   |  98 |  | |
