@@ -82,7 +82,7 @@ Caso de uso C01
 ![alt text](https://github.com/felipefo/ids/blob/master/arduino/imagem_tela_exemplo.png)
 
 
-## Descrição das atividades do realizadas no trabalho(Planejamento)
+## Descrição das atividades realizadas no trabalho(Planejamento)
 
 ### Atividades
 
@@ -92,7 +92,7 @@ Exemplo:
 
 | Identificador        | Descrição  | Prioridade  |  Responsável |   Data |
 | ------------- |:-------------:|  -----:|-----:| -----:|
-| 001 | Reunião para definir como o sistema será feito e distribuição e criação da lista atividades | 100 | João | |
+| 001 | Reunião para definir como o sistema será feito e distribuição e criação da lista atividades | 100 | João | 20/04/2017 |
 | 002 | Criação do documento de especificação do trabalho   |  99 |  | |
 | 003 | Descrição dos requisitios do Sistema   |  98 |  | |
 | 004 | Descrição dos casos de uso do sistema   |  97 |  | |
