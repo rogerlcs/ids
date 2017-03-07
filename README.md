@@ -1,41 +1,42 @@
 
-Modelo de EspecificaÁ„o do Trabalho Disciplina de IDS.
+Modelo de Especifica√ß√£o do Trabalho Disciplina de IDS.
 
 
-## IntroduÁ„o
+## Introdu√ß√£o
 
-Coloque aqui uma explicaÁ„o inicial do seu trabalho explicando quais os seus objetivos e caracterÌsticas.
+Coloque aqui uma explica√ß√£o inicial do seu trabalho explicando quais os seus objetivos e caracter√≠sticas.
 
+## Descri√ß√£o do mini-mundo
 
-## DescriÁ„o do mini-mundo
+Descrever o mini-mundo. N√£o deve ser maior do que 15 linhas 
 
-Descrever o mini-mundo. N„o deve ser maior do que 15 linhas 
-
-
-
-## DescriÁ„o do Arduino
+## Descri√ß√£o do Arduino
 
 ### Quais as funcionalidades do arduino?
 
-## DescriÁ„o dos Requisitos 
+## Descri√ß√£o dos Requisitos 
 
 ### Requisitos Funcionais
 Exemplo:
-| Identificador        | DescriÁ„o  | Prioridade  |
-| ------------- |:-------------:| -----:|
-| RF001 | O sistema deve permitir o usu·rio fazer uma busca por termos | 100 |
-| RF002 | O sistema deve permitir o usu·rio fazer a busca e ir para o primeiro link |   99 |
 
-### Requisitos N„o Funcionais
+| Identificador        | Descri√ß√£o           | Prioridade  |
+| ------------- |:-------------:| -----:|
+| RF001     | O sistema deve permitir o usu√°rio fazer uma busca por termos | 100 |
+| RF002      | O sistema deve permitir o usu√°rio fazer a busca e ir para o primeiro link     |   99 |
+
+
+### Requisitos N√£o Funcionais
 Exemplo:
-| Identificador        | DescriÁ„o  | Prioridade  |
+
+| Identificador        | Descri√ß√£o           | Prioridade  |
 | ------------- |:-------------:| -----:|
-| RNF001 | O sistema deve retornar a busca em menos de 1 segundo | 98 |
-| RNF002 | O sistema deve ter uma tela amig·vel de f·cil utilizaÁ„o  |   97 |
+| RNF001     | O sistema deve retornar a busca em menos de 1 segundo | 98 |
+| RNF002      | O sistema deve ter uma tela amig√°vel de f√°cil utiliza√ß√£o     |   97 |
 
-## PrototipaÁ„o do Sistema
 
-FaÁa a prototipaÁ„o das telas do sistema. VocÍ pode adicionar as imagens ou um vÌdeo do sistema
+## Prototipa√ß√£o do Sistema
+
+Fa√ßa a prototipa√ß√£o das telas do sistema. Voc√™ pode adicionar as imagens ou um v√≠deo do sistema
 Exemplo:
 ![alt text](https://www.youtube.com/watch?v=vAp1qGp5KKk)
 
@@ -51,51 +52,51 @@ Requisitos - RF001, RNF001 e RNF002
 C01 - Realizar Busca
 ###Fluxo normal
 
-1. O usu·rio acessar a p·gina www.google.com
-2. O usu·rio seleciona a caixa de texto para inserir seus dados de busca.
-3. O usu·rio informa o(s) termo(s) que deseja pesquisar.
-4. O usu·rio clica no bot„o "Pesquisa Google".
-5. O sistema retorna uma lista de links e uma pequena descriÁ„o do site relacionados ao termo informado pelo usu·rio.
-6. O usu·rio seleciona um link de sua preferencia.
+1. O usu√°rio acessar a p√°gina www.google.com
+2. O usu√°rio seleciona a caixa de texto para inserir seus dados de busca.
+3. O usu√°rio informa o(s) termo(s) que deseja pesquisar.
+4. O usu√°rio clica no bot√£o "Pesquisa Google".
+5. O sistema retorna uma lista de links e uma pequena descri√ß√£o do site relacionados ao termo informado pelo usu√°rio.
+6. O usu√°rio seleciona um link de sua preferencia.
 
 ###Fluxo Alternativo
 
-1. O usu·rio acessar a p·gina www.google.com
-1. O usu·rio clica em pesquisa avanÁada.
-2. O usu·rio seleciona a caixa de texto para inserir seus dados de busca.
-3. O usu·rio informa o(s) termo(s) que deseja pesquisar.
-4. O usu·rio clica no bot„o "Pesquisa Google".
-5. O sistema retorna uma lista de links e uma pequena descriÁ„o do site relacionados ao termo informado pelo usu·rio.
-6. O usu·rio seleciona um link de sua preferencia.
+1. O usu√°rio acessar a p√°gina www.google.com
+1. O usu√°rio clica em pesquisa avan√ßada.
+2. O usu√°rio seleciona a caixa de texto para inserir seus dados de busca.
+3. O usu√°rio informa o(s) termo(s) que deseja pesquisar.
+4. O usu√°rio clica no bot√£o "Pesquisa Google".
+5. O sistema retorna uma lista de links e uma pequena descri√ß√£o do site relacionados ao termo informado pelo usu√°rio.
+6. O usu√°rio seleciona um link de sua preferencia.
 
 
 
-## Telas do sistema ( Coloque aqui a vers„o final das telas do sistema)
+## Telas do sistema ( Coloque aqui a vers√£o final das telas do sistema)
 
-Para cada tela do sistema voÁÍ deve adicionar uma imagem e uma descriÁ„o da tela.
+Para cada tela do sistema vo√ß√™ deve adicionar uma imagem e uma descri√ß√£o da tela.
 
-A figura abaixa È exibido a tela de busca do sistema. Nessa tela È possÌvel fazer uma busca informando o termo que se deseja buscar.
-Como resultado ela exibir· uma lista de links relacionados a esse termo informado. 
+A figura abaixa √© exibido a tela de busca do sistema. Nessa tela √© poss√≠vel fazer uma busca informando o termo que se deseja buscar.
+Como resultado ela exibir√° uma lista de links relacionados a esse termo informado. 
 Caso de uso C01
 
 ![alt text](https://github.com/felipefo/ids/blob/master/arduino/imagem_tela_exemplo.png)
 
 
-## DescriÁ„o das atividades do realizadas no trabalho(Planejamento)
+## Descri√ß√£o das atividades do realizadas no trabalho(Planejamento)
 
 ### Atividades
 
 Exemplo:
-| Identificador        | DescriÁ„o  | Prioridade  |  Respons·vel |   Data |
+| Identificador        | Descri√ß√£o  | Prioridade  |  Respons√°vel |   Data |
 | ------------- |:-------------:| -----:| -----:|
-| 001 | Reuni„o para definir como o sistema ser· feito e distribuiÁ„o e criaÁ„o da lista atividades | 100 | Jo„o | |
-| 002 | CriaÁ„o do documento de especificaÁ„o do trabalho   |  99 |  | |
-| 003 | DescriÁ„o dos requisitios do Sistema   |  98 |  | |
-| 004 | DescriÁ„o dos casos de uso do sistema   |  97 |  | |
-| 005 | CriaÁ„o do prototipaÁ„o em papel do sistema |  96 |  | |
-| 006 | Filmagem da prototipaÁ„o em papel do sistema   |  95 |  | |
-| 007 | Revis„o do documento de espeficiaÁ„o do trabalho   |  94 |  | |
-| 009 | DescriÁ„o dos requisitios do Sistema   |  92 |  | |
+| 001 | Reuni√£o para definir como o sistema ser√° feito e distribui√ß√£o e cria√ß√£o da lista atividades | 100 | Jo√£o | |
+| 002 | Cria√ß√£o do documento de especifica√ß√£o do trabalho   |  99 |  | |
+| 003 | Descri√ß√£o dos requisitios do Sistema   |  98 |  | |
+| 004 | Descri√ß√£o dos casos de uso do sistema   |  97 |  | |
+| 005 | Cria√ß√£o do prototipa√ß√£o em papel do sistema |  96 |  | |
+| 006 | Filmagem da prototipa√ß√£o em papel do sistema   |  95 |  | |
+| 007 | Revis√£o do documento de espeficia√ß√£o do trabalho   |  94 |  | |
+| 009 | Descri√ß√£o dos requisitios do Sistema   |  92 |  | |
 | 010 | ....   |  91 |  | |
 
 
