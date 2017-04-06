@@ -57,7 +57,7 @@ Se você seguiu corretamente os passo você vai visualizar a seguinte imagem:
   
   ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/ligacao_piscando_led.png)
   
-  O circuits.io cria um código pra você quando você faz essas ligações. Essa liagções dizem ao arduino para piscar o led. 
+  O circuits.io cria um código pra você quando você faz essas ligações. Esse código diz ao arduino para piscar o led. 
   O código criado é destacado abaixo.
   
 ```
@@ -83,6 +83,13 @@ void loop() {
 6) Para executar clique em Start simulation
 
 7) Para para a execução clique em Stop simulation
+
+8) Aletere o código para piscar em intervalos de 500 milisegundos
+
+
+9) Adicione mais um led, ou seja você terá dois leds, e faça o mesmo piscar em intervalos de 500 milisegundos.
+
+
 
 
 
