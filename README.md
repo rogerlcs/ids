@@ -39,7 +39,7 @@ Exemplo:
 Faça a prototipação das telas do sistema. Você pode adicionar as imagens ou um vídeo do sistema
 Exemplo:<br>
 
-![alt text](https://www.youtube.com/watch?v=vAp1qGp5KKk)
+![video exemplo] (https://www.youtube.com/watch?v=vAp1qGp5KKk)
 <br>
 
 ## Project Model Canvas
@@ -81,8 +81,8 @@ A figura abaixa é exibido a tela de busca do sistema. Nessa tela é possível f
 Como resultado ela exibirá uma lista de links relacionados a esse termo informado. 
 Caso de uso C01
 
-![alt text](https://github.com/felipefo/ids/blob/master/arduino/imagem_tela_exemplo.png)
-
+![alt text](https://github.com/felipefo/ids/blob/master/imagem_tela_exemplo.png)
+            
 
 ## Descrição das atividades realizadas no trabalho(Planejamento)
 
