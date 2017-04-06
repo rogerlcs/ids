@@ -37,8 +37,10 @@ Exemplo:
 ## Prototipação do Sistema
 
 Faça a prototipação das telas do sistema. Você pode adicionar as imagens ou um vídeo do sistema
-Exemplo:
+Exemplo:<br>
+
 ![alt text](https://www.youtube.com/watch?v=vAp1qGp5KKk)
+<br>
 
 ## Project Model Canvas
 
@@ -50,7 +52,7 @@ Exemplo:
 Requisitos - RF001, RNF001 e RNF002
 
 C01 - Realizar Busca
-###Fluxo normal
+### Fluxo normal
 
 1. O usuário acessar a página www.google.com
 2. O usuário seleciona a caixa de texto para inserir seus dados de busca.
@@ -59,7 +61,7 @@ C01 - Realizar Busca
 5. O sistema retorna uma lista de links e uma pequena descrição do site relacionados ao termo informado pelo usuário.
 6. O usuário seleciona um link de sua preferencia.
 
-###Fluxo Alternativo
+### Fluxo Alternativo
 
 1. O usuário acessar a página www.google.com
 1. O usuário clica em pesquisa avançada.
