@@ -39,7 +39,8 @@ Exemplo:
 Faça a prototipação das telas do sistema. Você pode adicionar as imagens ou um vídeo do sistema
 Exemplo:<br>
 
-![video exemplo] (https://www.youtube.com/watch?v=vAp1qGp5KKk)
+https://www.youtube.com/watch?v=vAp1qGp5KKk
+
 <br>
 
 ## Project Model Canvas
