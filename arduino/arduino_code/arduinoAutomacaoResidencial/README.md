@@ -32,10 +32,10 @@ Abaixo o código para ligar e desligar um led em resposta a uma requisição web
 https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoAutomacaoResidencial/arduinoAutomacaoResidencial.ino
 
 A requisção deve seguir o seguinte formato para ligar/desligar o led 13. Você deve substituir <ip> pelo ip do arduino.
-http://<ip>/001
+http://ip/001
 
 A requisção deve seguir o seguinte formato para ligar/desligar o led 12
-http://<ip>/002
+http://ip/002
 
 
 
