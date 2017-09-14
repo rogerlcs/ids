@@ -8,27 +8,28 @@ https://www.youtube.com/watch?v=WaJml0QSjio
 ## Criando conta no Circuitos.io
 
 
-Acesse o site http://circuits.io e crie uma conta pra você.
+Acesso p site  https://www.tinkercad.com e crie uma conta pra você.
 
 ## Criando seu projeto
 
-1)Clique no menu create
+1)Clique no menu clique em Circuits
 
-2)Abra eletronics labs ( Electronics Lab )
+2) Depois clique em Create new Circuit
 
-3)New Electronics Lab
 
 Se você seguiu corretamente os passo você vai visualizar a seguinte imagem:
 
 ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/curcuits_io1.jpg)
 
+Para isso vá em components como na imagem abaixo:
+             
+ ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/adicionar_componentes.png)
+ 
+
+3) Adicione o componente board 
 
 4) Adicione o arduino uno r3 ao projeto
 
- Para isso vá em components como na imagem abaixo:
- 
-            
- ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/adicionar_componentes.png)
  
  Selecionando o arduino uno r3:
  
@@ -48,12 +49,11 @@ Se você seguiu corretamente os passo você vai visualizar a seguinte imagem:
  
  ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/resultado_selecao.png)
  
- 
- 
+  
  5) Vamos ligar os componentes para iniciar a simulação
  
   Faça a ligação conforme a imagem exibida abaixo:
-  
+ 
   
   ![alt text](https://github.com/felipefo/ids/blob/master/arduino/arduino_code/arduinoComCircuitsIO/piscandoLed/ligacao_piscando_led.png)
   
