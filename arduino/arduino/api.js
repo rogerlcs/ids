@@ -1,5 +1,5 @@
 
-var domain = "http://arduinofacil.hol.es/server/index.php/house";
+var domain = "http://46.101.131.51/server/index.php/house";
 
 var lampada1 = "";
 var lampada2= "";
@@ -13,6 +13,23 @@ var updateServiceRunning;
 var ventilador= "";
 ventiladorAnimation= "";
 var id= "";
+
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
 
 function inserir(){
 	
@@ -34,6 +51,8 @@ function initObjets(id_inserir){
 
 		var url  = "" ;		
 		var url = domain + '/gethouseinicialstate';				
+		
+		
 		
 		if(id_inserir != "" ){
 			url += "/id/" + id_inserir;			

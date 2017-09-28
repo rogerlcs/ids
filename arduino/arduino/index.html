@@ -28,13 +28,11 @@
 	<div id='projeto_casa' style="display: block;margin:5px;">				
 	
 	    <div class="row" style="margin:1px !important;padding:2px !important;">				
-			<div class="col s6" >
-				<input value="Identidicador" id="session_id" type="text" placeholder="" class="col s5">
-				<a class="waves-effect waves-light btn col s3" style="margin-right:20px;" onclick="inserir();">Inserir</a>
-				<a class="waves-effect waves-light btn col s3" style="margin-right:20px;" onclick="updateService();">Atualizar Estado</a>
-
-
-				
+			<div class="col s12" >				
+				<div> Código da Casa</div>
+				<input value="" id="session_id" type="text" placeholder="Código da Casa" class="col s3">
+				<a class="waves-effect waves-light btn col s2" style="margin-right:20px;" onclick="inserir();">Inserir Código</a>				
+				<a id="txt" class="waves-effect waves-light btn col s2" style="margin-right:20px;"></a>								
 			</div>								
 	
 		</div>					
@@ -47,16 +45,16 @@
 			<p>
 			<img src="images/numero1.png"> <strong>Lampada 1</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
-				&lt;lampada1&gt; - Ligar/desligar a lampada 1, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada1/&lt;ligado=1,desligado=0&gt;
+				&lt;lampada1&gt; - Ligar/desligar a lampada 1, &lt;ligado=1,desligado=0&gt; <br>				 				  
+				   http://simuladorcasa.mooo.com/server/index.php/house/update/id/&lt;id&gt;/lampada1/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
 				Ligar a lamapda 1 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada1/1<br>
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada1/1<br>
 				
 				Desligar a lamapda 1 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada1/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada1/0
 				<br>
 				
 			</p>
@@ -68,15 +66,15 @@
 			<strong>Lampada 2</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
 				&lt;lampada2&gt; - Ligar/desligar a lampada 2, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada2/&lt;ligado=1,desligado=0&gt;
+				   http://simuladorcasa.mooo.com/server/index.php/house/update/id/&lt;id&gt;/lampada2/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
 				Ligar a lamapda 2 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada2/1<br>
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada2/1<br>
 				
 				Desligar a lamapda 2 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada2/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada2/0
 				<br>
 			</p>
 		</div>
@@ -87,15 +85,15 @@
 			<strong>Lampada 3</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
 				&lt;lampada3&gt; - Ligar/desligar a lampada 3, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada3/&lt;ligado=1,desligado=0&gt;
+				   http://simuladorcasa.mooo.com/server/index.php/house/update/id/&lt;id&gt;/lampada3/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
 				Ligar a lamapda 3 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada3/1<br>
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada3/1<br>
 				
 				Desligar a lamapda 3 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada3/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada3/0
 				<br>
 			</p>
 		</div>
@@ -106,15 +104,15 @@
 			<strong>Lampada 4</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
 				&lt;lampada4&gt; - Ligar/desligar a lampada 4, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada4/&lt;ligado=1,desligado=0&gt;
+				   http://simuladorcasa.mooo.com/server/index.php/house/update/id/&lt;id&gt;/lampada4/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
 				Ligar a lamapda 4 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada4/1<br>
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada4/1<br>
 				
 				Desligar a lamapda 4 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada4/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada4/0
 				<br>
 			</p>
 		</div>
@@ -125,7 +123,7 @@
 			<strong>Lampada 5</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
 				&lt;lampada5&gt; - Ligar/desligar a lampada 5, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada5/&lt;ligado=1,desligado=0&gt;
+				   http://simuladorcasa.mooo.com/server/index.php/house/update/id/&lt;id&gt;/lampada5/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
@@ -133,7 +131,7 @@
 				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada5/1<br>
 				
 				Desligar a lamapda 5 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada5/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada5/0
 				<br>
 			</p>
 		</div>
@@ -145,15 +143,15 @@
 			<strong>Lampada 6</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
 				&lt;lampada6&gt; - Ligar/desligar a lampada 6, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/update/id/&lt;id&gt;/lampada6/&lt;ligado=1,desligado=0&gt;
+				   http://simuladorcasa.mooo.com/server/index.php/house/update/id/&lt;id&gt;/lampada6/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
 				Ligar a lamapda 6 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada6/1<br>
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada6/1<br>
 				
 				Desligar a lamapda 6 com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/lampada6/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/lampada6/0
 				<br>
 			</p>
 		</div>
@@ -165,17 +163,41 @@
 			<strong>Ventilador</strong><br>			    
 			    &lt;id&gt; Identificador da sessão  <br>
 				&lt;Ventilador&gt; - Ligar/desligar o Ventilador, &lt;ligado=1,desligado=0&gt; <br>				 
-				   http://arduinofacil.hol.es/server/index.php/house/id/&lt;id&gt;/ventilador/&lt;ligado=1,desligado=0&gt;
+				   http://simuladorcasa.mooo.com/server/index.php/house/id/&lt;id&gt;/ventilador/&lt;ligado=1,desligado=0&gt;
 				<br>
 				<br>
 				<strong>Exemplo:</strong><br>
 				Ligar o Ventilador com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/ventilador/1<br>
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/ventilador/1<br>
 				
 				Desligar o Ventilador com identificador 167<br>
-				http://arduinofacil.hol.es/server/index.php/house/update/id/167/ventilador/0
+				http://simuladorcasa.mooo.com/server/index.php/house/update/id/167/ventilador/0
 				<br>
 			</p>
+			
+			<hr>
+			<div class="row">
+			<br>
+			<h5>Utilizando a temporização das Lâmpadas</h5><br>			    
+			    &lt;id&gt; Identificador da sessão  <br>				
+				   http://simuladorcasa.mooo.com/server/index.php/criarTimeout/id/&lt;id&gt;/lampada1tempo/&lt;30&gt;				   				   				  
+				   
+				   <p>
+				   http://simuladorcasa.mooo.com/server/index.php/criarTimeout/id/167/lampada1tempo/30				   
+				   <br>
+				   No exemplo acima a lamapada1 será desligada depois de 30 segundos. 
+				   </p>
+				   <p>
+				   Para lampada2 utilize lampada2tempo<br>
+				   Para lampada3 utilize lampada3tempo<br>
+				   Para lampada4 utilize lampada4tempo<br>
+				   Para lampada5 utilize lampada5tempo<br>
+				   Para lampada6 utilize lampada6tempo<br>
+				   </p>
+				<br>
+			</div>	
+			
+			
 		</div>
 		
 		
@@ -185,10 +207,10 @@
 		<script>		
 			initAnimation();
 			$( document ).ready(function() {
-				initObjets("");
-				updateService(); 
+				updateService();				 
 				//comentado pois o servidor free utilizando não aguenta tanta requisição	
-				//updateServiceRunning = setInterval(function(){ updateService(); }, 3000);
+				updateServiceRunning = setInterval(function(){ updateService(); }, 2000);
+				startTime();
 			});
 		</script>	
 	</div>

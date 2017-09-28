@@ -10,6 +10,12 @@
  * @property string $lampada5
  * @property string $lampada6
  * @property string $ventilador1
+ * @property timestamp $lampada1tempo
+ * @property timestamp $lampada2tempo
+ * @property timestamp $lampada3tempo
+ * @property timestamp $lampada4tempo
+ * @property timestamp $lampada5tempo
+ * @property timestamp $lampada6tempo
  */
 class House extends CActiveRecord
 {
@@ -38,7 +44,7 @@ class House extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(					
-			array('lampada1,lampada2,lampada3,lampada4,lampada5,lampada6,ventilador,profile', 'safe'),
+			array('lampada1,lampada2,lampada3,lampada4,lampada5,lampada6,ventilador,profile,lampada1tempo,lampada2tempo,lampada3tempo,lampada4tempo,lampada5tempo,lampada6tempo', 'safe'),
 		);
 	}
 

@@ -13,7 +13,7 @@ class HouseController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to access 'index' and 'view' actions.
-				'actions'=>array('index','view' , "getHouseInicialState" , "update"),
+				'actions'=>array('index','view' , "getHouseInicialState" , "update" , "criarTimeout"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated users to access all actions
@@ -26,6 +26,25 @@ class HouseController extends Controller
 		);
 	}
 
+	public function actionCriarTimeout(){
+		header('Access-Control-Allow-Origin: *');	
+		if(isset($_GET['id'])){			
+			$model=House::model()->findByPk($_GET['id']);					
+			if(isset($_GET['lampada1tempo'])){			
+				
+				$tempo = $_GET['lampada1tempo'];
+				echo date("Y-m-d H:i:s" ,  strtotime('+' . $tempo . ' seconds'));	
+				$model->lampada1tempo = date("Y-m-d H:i:s" , strtotime('+' . $tempo . ' seconds'));						
+				$model->save();
+			}	
+			if(isset($_GET['lampada2tempo'])){			
+				$model->lampada2tempo = strtotime("+" . ((int)$_GET['lampada1tempo']) ." min");						
+				$model->save();
+			}				
+		}
+		
+	}
+	
 	public function actionUpdate()
 	{
 		header('Access-Control-Allow-Origin: *');	
@@ -64,7 +83,40 @@ class HouseController extends Controller
 		header('Access-Control-Allow-Origin: *');						
 		if(isset($_GET['id'])){					
 			$id = $_GET['id'];
-			$model=House::model()->findByPk($_GET['id']);
+			$model=House::model()->findByPk($_GET['id']);			
+			//ser for menor que a hora corrente			
+			if($model->lampada1tempo != null &&  $model->lampada1tempo <= date("Y-m-d H:i:s")){
+				$model->lampada1tempo = NULL;
+				$model->lampada1 = 0; 
+				$model->save();
+			}
+			if($model->lampada2tempo != null && $model->lampada2tempo <= date("Y-m-d H:i:s")){
+				$model->lampada2tempo = NULL;
+				$model->lampada2 = 0; 
+				$model->save();
+			}			
+			if($model->lampada3tempo != null && $model->lampada3tempo <= date("Y-m-d H:i:s")){
+				$model->lampada3tempo = NULL;
+				$model->lampada3 = 0; 
+				$model->save();
+			}
+			if($model->lampada4tempo != null && $model->lampada4tempo <= date("Y-m-d H:i:s")){
+				$model->lampada4tempo = NULL;
+				$model->lampada4 = 0; 
+				$model->save();
+			}
+			
+			if($model->lampada5tempo != null && $model->lampada5tempo <= date("Y-m-d H:i:s")){
+				$model->lampada5tempo = NULL;
+				$model->lampada5 = 0; 
+				$model->save();
+			}
+			
+			if($model->lampada6tempo != null && $model->lampada6tempo <= date("Y-m-d H:i:s")){
+				$model->lampada6tempo = NULL;
+				$model->lampada6 = 0; 
+				$model->save();
+			}		
 		}else{
 			$model=new House();						
 			$model->save();		
