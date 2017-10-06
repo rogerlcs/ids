@@ -38,7 +38,35 @@ class HouseController extends Controller
 				$model->save();
 			}	
 			if(isset($_GET['lampada2tempo'])){			
-				$model->lampada2tempo = strtotime("+" . ((int)$_GET['lampada1tempo']) ." min");						
+				$tempo = $_GET['lampada2tempo'];
+				echo date("Y-m-d H:i:s" ,  strtotime('+' . $tempo . ' seconds'));	
+				$model->lampada2tempo = date("Y-m-d H:i:s" , strtotime('+' . $tempo . ' seconds'));										
+				$model->save();
+			}				
+			if(isset($_GET['lampada3tempo'])){			
+				$tempo = $_GET['lampada3tempo'];
+				echo date("Y-m-d H:i:s" ,  strtotime('+' . $tempo . ' seconds'));	
+				$model->lampada3tempo = date("Y-m-d H:i:s" , strtotime('+' . $tempo . ' seconds'));										
+				$model->save();
+			}				
+			if(isset($_GET['lampada4tempo'])){			
+				$tempo = $_GET['lampada4tempo'];
+				echo date("Y-m-d H:i:s" ,  strtotime('+' . $tempo . ' seconds'));	
+				$model->lampada4tempo = date("Y-m-d H:i:s" , strtotime('+' . $tempo . ' seconds'));														
+				$model->save();
+			}				
+			if(isset($_GET['lampada5tempo'])){			
+				$tempo = $_GET['lampada5tempo'];
+				echo date("Y-m-d H:i:s" ,  strtotime('+' . $tempo . ' seconds'));	
+				$model->lampada5tempo = date("Y-m-d H:i:s" , strtotime('+' . $tempo . ' seconds'));										
+				$model->save();
+			}				
+			
+			if(isset($_GET['lampada6tempo'])){			
+				
+				$tempo = $_GET['lampada6tempo'];				
+				echo date("Y-m-d H:i:s" ,  strtotime('+' . $tempo . ' seconds'));	
+				$model->lampada6tempo = date("Y-m-d H:i:s" , strtotime('+' . $tempo . ' seconds'));										
 				$model->save();
 			}				
 		}
@@ -85,34 +113,35 @@ class HouseController extends Controller
 			$id = $_GET['id'];
 			$model=House::model()->findByPk($_GET['id']);			
 			//ser for menor que a hora corrente			
-			if($model->lampada1tempo != null &&  $model->lampada1tempo <= date("Y-m-d H:i:s")){
+			if(!is_null($model->lampada1tempo) &&  $model->lampada1tempo <= date("Y-m-d H:i:s")){
 				$model->lampada1tempo = NULL;
 				$model->lampada1 = 0; 
 				$model->save();
 			}
-			if($model->lampada2tempo != null && $model->lampada2tempo <= date("Y-m-d H:i:s")){
+			if(!is_null($model->lampada2tempo) && $model->lampada2tempo <= date("Y-m-d H:i:s")){
 				$model->lampada2tempo = NULL;
 				$model->lampada2 = 0; 
 				$model->save();
 			}			
-			if($model->lampada3tempo != null && $model->lampada3tempo <= date("Y-m-d H:i:s")){
+			if(!is_null($model->lampada3tempo) && $model->lampada3tempo <= date("Y-m-d H:i:s")){
 				$model->lampada3tempo = NULL;
 				$model->lampada3 = 0; 
 				$model->save();
 			}
-			if($model->lampada4tempo != null && $model->lampada4tempo <= date("Y-m-d H:i:s")){
+			if(!is_null($model->lampada4tempo) && $model->lampada4tempo <= date("Y-m-d H:i:s")){
 				$model->lampada4tempo = NULL;
 				$model->lampada4 = 0; 
 				$model->save();
 			}
 			
-			if($model->lampada5tempo != null && $model->lampada5tempo <= date("Y-m-d H:i:s")){
+			if(!is_null($model->lampada5tempo) && $model->lampada5tempo <= date("Y-m-d H:i:s")){
 				$model->lampada5tempo = NULL;
 				$model->lampada5 = 0; 
 				$model->save();
 			}
 			
-			if($model->lampada6tempo != null && $model->lampada6tempo <= date("Y-m-d H:i:s")){
+			if( !is_null($model->lampada6tempo) && $model->lampada6tempo <= date("Y-m-d H:i:s")){
+				//echo "entrou aqui";
 				$model->lampada6tempo = NULL;
 				$model->lampada6 = 0; 
 				$model->save();
@@ -129,6 +158,7 @@ class HouseController extends Controller
 		'lampada4'=> $model->lampada4,
 		'lampada5'=> $model->lampada5,
 		'lampada6'=> $model->lampada6,
+		'lampada6tempo'=> $model->lampada6tempo <= date("Y-m-d H:i:s") && is_null($model->lampada6tempo),
 		'ventilador'=> $model->ventilador);		
 		$json = CJSON::encode($item);
 		echo $json;	
