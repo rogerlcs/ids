@@ -4,13 +4,22 @@ Modelo de Especificação do Trabalho Disciplina de IDS.
 
 ## Introdução
 
-Coloque aqui uma explicação inicial do seu trabalho explicando quais os seus objetivos e características.
+[Coloque aqui uma explicação inicial do seu trabalho explicando quais os seus objetivos e características]
+
+Este projeto é um exemplo de como construir uma documentação do seu trabalho.
+
 
 ## Descrição do mini-mundo
 
-Descrever o mini-mundo. Não deve ser maior do que 15 linhas 
+[Descrever o mini-mundo. Não deve ser maior do que 15 linhas]
+
+Atualmente, com os smartphones e aplicativos, ficou muito fácil a construção e controle de equipamentos.  
+O sistema a ser desenvolvido precisa simular a recepção de comandos para controlar os equipamentos de uma residência. É  necessário que no sistema seja possível o controle de ligar e desligar lâmpadas, além de outros equipamentos.  
+Nele, deve-se ter uma senha de acesso para que a residência não seja controlada por pessoas sem autorização. Esse simulador deve estar disponível na plataforma web por meio de um site e ele deve ter uma interface amigável e de fácil utilização.  
 
 ## Descrição do Arduino
+
+"Arduino[3][5][6] é uma plataforma de prototipagem eletrônica de hardware livre e de placa única,[7] projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão,[8] a qual tem origem em Wiring, e é essencialmente C/C++.[9] O objetivo do projeto é criar ferramentas que são acessíveis, com baixo custo, flexíveis e fáceis de se usar por principiantes e profissionais. Principalmente para aqueles que não teriam alcance aos controladores mais sofisticados e ferramentas mais complicadas.[10]" (wikipedia, 2021)
 
 ### Quais as funcionalidades do arduino?
 
@@ -106,7 +115,9 @@ Exemplo:
 | 010 | ....   |  91 |  | |
 
 
+#Referências
 
+Wikipedia, Arduino, Disponível em:<https://pt.wikipedia.org/wiki/Arduino> Acessado em 18 de maio de 2021. 
 
 
 
