@@ -28,8 +28,9 @@ Exemplo:
 
 | Identificador        | Descrição           | Prioridade  |
 | ------------- |:-------------:| -----:|
-| RF001     | O sistema deve permitir o usuário fazer uma busca por termos | 100 |
-| RF002      | O sistema deve permitir o usuário fazer a busca e ir para o primeiro link     |   99 |
+| RF001     |O sistema deve permitir ao usuário ligar e desligar lâmpadas | 100 |
+| RF002      | O sistema deve permitir ao usuário ligar e desligar o ventilador    |   99 |
+
 
 
 ### Requisitos Não Funcionais
@@ -37,14 +38,18 @@ Exemplo:
 
 | Identificador        | Descrição           | Prioridade  |
 | ------------- |:-------------:| -----:|
-| RNF001     | O sistema deve retornar a busca em menos de 1 segundo | 98 |
-| RNF002      | O sistema deve ter uma tela amigável de fácil utilização     |   97 |
+| RNF001      | O sistema deve permitir o usuário informar a senha para ter acesso a sua casa     |   98 |
+| RNF002      | O sistema deve ser web    |   99 |
+| RNF003      | O sistema deve ser amigável     |   99 |
+| RNF004      |O sistema deve usar um servidor php gratuito     |   99 |
 
 
 ## Prototipação do Sistema
 
 Faça a prototipação das telas do sistema. Você pode adicionar as imagens ou um vídeo do sistema
 Exemplo:<br>
+
+
 
 https://www.youtube.com/watch?v=vAp1qGp5KKk
 
