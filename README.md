@@ -44,9 +44,9 @@ Exemplo:
 | Identificador        | Descrição           | Prioridade  |
 | ------------- |:-------------:| -----:|
 | RNF001      | O sistema deve permitir o usuário informar a senha para ter acesso a sua casa     |   98 |
-| RNF002      | O sistema deve ser web    |   99 |
-| RNF003      | O sistema deve ser amigável     |   99 |
-| RNF004      |O sistema deve usar um servidor php gratuito     |   99 |
+| RNF002      | O sistema deve ser web    |   97 |
+| RNF003      | O sistema deve ser amigável     |   96 |
+| RNF004      |O sistema deve usar um servidor php gratuito     |   95 |
 
 
 ## Prototipação do Sistema
