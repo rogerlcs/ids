@@ -60,32 +60,6 @@ https://www.youtube.com/watch?v=vAp1qGp5KKk
 ...
 
 
-## Caso de Uso
-
-Requisitos - RF001, RNF001 e RNF002
-
-C01 - Realizar Busca
-### Fluxo normal
-
-1. O usuário acessar a página www.google.com
-2. O usuário seleciona a caixa de texto para inserir seus dados de busca.
-3. O usuário informa o(s) termo(s) que deseja pesquisar.
-4. O usuário clica no botão "Pesquisa Google".
-5. O sistema retorna uma lista de links e uma pequena descrição do site relacionados ao termo informado pelo usuário.
-6. O usuário seleciona um link de sua preferencia.
-
-### Fluxo Alternativo
-
-1. O usuário acessar a página www.google.com
-1. O usuário clica em pesquisa avançada.
-2. O usuário seleciona a caixa de texto para inserir seus dados de busca.
-3. O usuário informa o(s) termo(s) que deseja pesquisar.
-4. O usuário clica no botão "Pesquisa Google".
-5. O sistema retorna uma lista de links e uma pequena descrição do site relacionados ao termo informado pelo usuário.
-6. O usuário seleciona um link de sua preferencia.
-
-
-
 ## Telas do sistema ( Coloque aqui a versão final das telas do sistema)
 
 Para cada tela do sistema voçê deve adicionar uma imagem e uma descrição da tela.
