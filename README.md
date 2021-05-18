@@ -1,5 +1,4 @@
-
-Modelo de Especificação do Trabalho Disciplina de IDS.
+Exemplo de documentação do trabalho
 
 
 ## Introdução
