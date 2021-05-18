@@ -60,6 +60,10 @@ https://www.youtube.com/watch?v=vAp1qGp5KKk
 
 <br>
 
+## Modelo conceitual/Classe do projeto
+
+
+## Projeto do sistema
 
 
 ## Telas do sistema ( Coloque aqui a versão final das telas do sistema)
