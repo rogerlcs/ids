@@ -70,7 +70,7 @@ A figura abaixa é exibido a tela de busca do sistema. Nessa tela é possível f
 Como resultado ela exibirá uma lista de links relacionados a esse termo informado. 
             
 
-##Referências
+## Referências
 
 Wikipedia, Arduino, Disponível em:<https://pt.wikipedia.org/wiki/Arduino> Acessado em 18 de maio de 2021. 
 
