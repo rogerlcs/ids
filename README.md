@@ -7,6 +7,11 @@ Exemplo de documentação do trabalho
 
 Este projeto é um exemplo de como construir uma documentação do seu trabalho.
 
+## Project Model Canvas
+
+...
+
+
 
 ## Descrição do mini-mundo
 
@@ -55,9 +60,6 @@ https://www.youtube.com/watch?v=vAp1qGp5KKk
 
 <br>
 
-## Project Model Canvas
-
-...
 
 
 ## Telas do sistema ( Coloque aqui a versão final das telas do sistema)
