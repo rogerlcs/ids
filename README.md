@@ -66,9 +66,6 @@ Para cada tela do sistema voçê deve adicionar uma imagem e uma descrição da 
 
 A figura abaixa é exibido a tela de busca do sistema. Nessa tela é possível fazer uma busca informando o termo que se deseja buscar.
 Como resultado ela exibirá uma lista de links relacionados a esse termo informado. 
-Caso de uso C01
-
-![alt text](https://github.com/felipefo/ids/blob/master/imagem_tela_exemplo.png)
             
 
 #Referências
