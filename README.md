@@ -41,19 +41,39 @@ Exemplo:
 | RNF006      | O sistema deve permitir ao usuário que foi convidado para um evento escolher participar ou recusar.     |   87 |
 
 ## Prototipação do Sistema
-![image](https://user-images.githubusercontent.com/51335663/145715957-59c744d1-1016-45d2-a86f-5c4999f5f26b.png)<br>Cadastro<br>
-![image](https://user-images.githubusercontent.com/51335663/145716061-0f624278-043e-44f6-8719-ee062ae83824.png)<br>Login<br>
-![image](https://user-images.githubusercontent.com/51335663/145716115-0588e587-4466-4f33-98a8-0637a363dde5.png)<br>Home Todos os Eventos<br>
+<br>Cadastro<br>
+![image](https://user-images.githubusercontent.com/51335663/145716901-338fa6d9-029b-42c5-a2b7-8bc4848aea69.png)
+
+<br>Login<br>
+![image](https://user-images.githubusercontent.com/51335663/145716908-eb7bae39-b320-4bca-96a4-6f7d0572ebfa.png)
+
+<br>Home Todos os Eventos<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716618-f003affe-1e15-4e2f-9f5c-2582b9b38d77.png)
 
-![image](https://user-images.githubusercontent.com/51335663/145716071-85ffa659-8eea-4902-9f1c-784c48b7c304.png)<br>Meus Eventos<br>
-![image](https://user-images.githubusercontent.com/51335663/145716162-8173923f-9a34-4154-a9a6-5d65a3aafa56.png)<br>Convites/Eventos Pendentes<br>
-![image](https://user-images.githubusercontent.com/51335663/145716288-e13e7579-b75c-48cc-9b4e-f96a9dd1b11c.png)<br>Evento Convite/Pendente<br>
-![image](https://user-images.githubusercontent.com/51335663/145716371-8e23789c-dfdc-41d2-8b29-28ea1ac5226a.png)<br>Criar Evento<br>
-![image](https://user-images.githubusercontent.com/51335663/145716234-ca5a6ee3-e9d2-4458-8e23-6aa0fe0a4521.png)<br>Evento em Sugestão<br>
-![image](https://user-images.githubusercontent.com/51335663/145716272-5ed26cec-381b-4348-87c1-e3d5cc9bf2cb.png)<br>Evento em Votação<br>
-![image](https://user-images.githubusercontent.com/51335663/145716197-00e02396-9baf-40a1-bbe1-83f74f95278b.png)<br>Evento Marcado<br>
-![image](https://user-images.githubusercontent.com/51335663/145716428-c6e6e2eb-098d-4dec-bd05-7c2851019ac4.png)<br>Perfil<br>
+<br>Meus Eventos<br>
+![image](https://user-images.githubusercontent.com/51335663/145716920-5d5c78b1-7cb4-40e9-86e2-82f0af75df83.png)
+
+<br>Convites/Eventos Pendentes<br>
+![image](https://user-images.githubusercontent.com/51335663/145716950-db6c0ac3-8a7e-494f-93d0-df25dfeb988c.png)
+
+<br>Evento Convite/Pendente<br>
+![image](https://user-images.githubusercontent.com/51335663/145716957-e20c77fb-6c2a-4fa8-b7d3-280144d216e3.png)
+
+<br>Criar Evento<br>
+![image](https://user-images.githubusercontent.com/51335663/145716967-6b5a4085-e020-4801-817d-7adda55f66cf.png)
+
+<br>Evento em Sugestão<br>
+![image](https://user-images.githubusercontent.com/51335663/145716975-ee4c329d-fb5f-4aad-b096-180620fc6919.png)
+
+<br>Evento em Votação<br>
+![image](https://user-images.githubusercontent.com/51335663/145716980-7d099a76-fb67-4755-aa93-e30c702bc8e4.png)
+
+<br>Evento Marcado<br>
+![image](https://user-images.githubusercontent.com/51335663/145716987-432bcb2c-c8c8-4fcb-bf82-ad259f9ee632.png)
+
+<br>Perfil<br>
+![image](https://user-images.githubusercontent.com/51335663/145717000-f93ea421-d6cb-4c87-9f90-97a064702afe.png)
+
 <br>
 
 ## Modelo conceitual/Classe do projeto
@@ -64,21 +84,21 @@ Exemplo:
 ## Projeto do sistema
   ### Tecnologias e linguagens utilizadas
    #### Do lado cliente mobile
-   Android Studio
-   Linguagem java
-   Github
+   Android Studio<br>
+   Linguagem java<br>
+   Github<br>
 
 #### Do lado servidor:
-   Linguagem php
-   Postgresql como banco de dados
-   Heroku
-   Github
-   WampServer e USBWebServer para rodar o php localmente
-   Sublime Text
-   Bibliotecas:
-   Respect\Validation para validação de dados
+   Linguagem php<br>
+   Postgresql como banco de dados<br>
+   Heroku<br>
+   Github<br>
+   WampServer e USBWebServer para rodar o php localmente<br>
+   Sublime Text<br>
+   
+#### Bibliotecas:
+   Respect\Validation para validação de dados<br>
 
-## Referências
 
 
 
