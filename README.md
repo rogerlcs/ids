@@ -41,6 +41,9 @@ Exemplo:
 | RNF006      | O sistema deve permitir ao usuário que foi convidado para um evento escolher participar ou recusar.     |   87 |
 
 ## Prototipação do Sistema
+![image](https://user-images.githubusercontent.com/51335663/145717543-44d97fef-65f4-4e97-a0fa-3b36f6870438.png)
+
+
 Cadastro<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716901-338fa6d9-029b-42c5-a2b7-8bc4848aea69.png)
 
