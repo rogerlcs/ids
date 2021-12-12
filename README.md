@@ -4,22 +4,12 @@ Nosso projeto consiste em criar um aplicação cujo o propósito principal consi
 
 ## Project Model Canvas
 
-...
-
-
+![image](https://user-images.githubusercontent.com/51335663/145715286-345f0149-3c3e-4fb3-abf2-48e9b57d633a.png)
 
 ## Descrição do mini-mundo
 
-[Descrever o mini-mundo. Não deve ser maior do que 15 linhas]
-
-Atualmente, com os smartphones e aplicativos, ficou muito fácil a construção e controle de equipamentos.  
-O sistema a ser desenvolvido precisa simular a recepção de comandos para controlar os equipamentos de uma residência. É  necessário que no sistema seja possível o controle de ligar e desligar lâmpadas, além de outros equipamentos.  
-Nele, deve-se ter uma senha de acesso para que a residência não seja controlada por pessoas sem autorização. Esse simulador deve estar disponível na plataforma web por meio de um site e ele deve ter uma interface amigável e de fácil utilização.  
-
-## Descrição do Arduino
-
-Mais sobre o arduino em: https://pt.wikipedia.org/wiki/Arduino
-
+Com o passar do tempo as interações entre pessoas têm acontecido cada vez mais no ambiente digital. E atualmente, também com o acontecimento da pandemia, muitas vezes essas interações encontram barreiras quando têm de passar do virtual para o “real” e por diversas vezes acabam por cair no esquecimento ou pelos empecilhos deixam de acontecer. Tendo isso em mente e em como as relações e interações sociais são essenciais para todos tivemos a ideia do projeto.
+O projeto é voltado para utilidade. O aplicativo será um aplicativo de utilidade social, ou seja, um aplicativo para promover e principalmente facilitar a interação social entre as pessoas. O aplicativo fará isso fornecendo um ambiente onde reuniões, eventos ou encontros podem ser facilmente marcados de forma colaborativa. Todos podem fazer sugestões e votar nas que mais lhes agradam, tudo de forma organizadas, e por fim acessar facilmente os detalhes do evento.
 
 ## Descrição dos Requisitos 
 
@@ -28,8 +18,18 @@ Exemplo:
 
 | Identificador        | Descrição           | Prioridade  |
 | ------------- |:-------------:| -----:|
-| RF001     |O sistema deve permitir ao usuário ligar e desligar lâmpadas | 100 |
-| RF002      | O sistema deve permitir ao usuário ligar e desligar o ventilador    |   99 |
+| RF001     |O sistema deve permitir que todo usuário Crie um Evento convidando seus amigos para combinar os tópicos do encontro. E definindo o nome, descrição, local e os prazos de sugestão e votação.
+ | 100 |
+| RF002      | O sistema deve exibir para o usuário na tela principal  todos os eventos relacionados a ele.
+    |   99 |
+| RF003      | O sistema deve permitir aos participante de um evento faça sugestões para um Tópicos, adicionando novas opções. Devem fazê-lo durante o prazo de sugestão determinado pelo Administrador.
+    |   98 |
+| RF004      | O sistema deve permitir aos participante votar em uma ou mais opções dos tópicos do evento até o fim do prazo de votação.
+    |   97 |
+| RF005      | O sistema deve permitir ao administrador definir os topicos do evento a partir do resultado da votação ao fim do prazo. E então o evento se encontrará marcado!    |   96 |
+| RF006      | O sistema deve permitir um administrador promover outros participantes à administradores do evento.    |   95 |
+| RF007      | O sistema deve permitir o usuário editar informações do seu perfil.    |   94 |
+| RF008      | O sistema deve permitir um administrador remover participantes do Evento    |   93 |
 
 
 
