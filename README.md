@@ -18,14 +18,10 @@ Exemplo:
 
 | Identificador        | Descrição           | Prioridade  |
 | ------------- |:-------------:| -----:|
-| RF001     |O sistema deve permitir que todo usuário Crie um Evento convidando seus amigos para combinar os tópicos do encontro. E definindo o nome, descrição, local e os prazos de sugestão e votação.
- | 100 |
-| RF002      | O sistema deve exibir para o usuário na tela principal  todos os eventos relacionados a ele.
-    |   99 |
-| RF003      | O sistema deve permitir aos participante de um evento faça sugestões para um Tópicos, adicionando novas opções. Devem fazê-lo durante o prazo de sugestão determinado pelo Administrador.
-    |   98 |
-| RF004      | O sistema deve permitir aos participante votar em uma ou mais opções dos tópicos do evento até o fim do prazo de votação.
-    |   97 |
+| RF001     |O sistema deve permitir que todo usuário Crie um Evento convidando seus amigos para combinar os tópicos do encontro. E definindo o nome, descrição, local e os prazos de sugestão e votação.| 100 |
+| RF002      | O sistema deve exibir para o usuário na tela principal  todos os eventos relacionados a ele.|   99 |
+| RF003      | O sistema deve permitir aos participante de um evento faça sugestões para um Tópicos, adicionando novas opções. Devem fazê-lo durante o prazo de sugestão determinado pelo Administrador.|   98 |
+| RF004      | O sistema deve permitir aos participante votar em uma ou mais opções dos tópicos do evento até o fim do prazo de votação.|   97 |
 | RF005      | O sistema deve permitir ao administrador definir os topicos do evento a partir do resultado da votação ao fim do prazo. E então o evento se encontrará marcado!    |   96 |
 | RF006      | O sistema deve permitir um administrador promover outros participantes à administradores do evento.    |   95 |
 | RF007      | O sistema deve permitir o usuário editar informações do seu perfil.    |   94 |
