@@ -41,40 +41,44 @@ Exemplo:
 | RNF006      | O sistema deve permitir ao usuário que foi convidado para um evento escolher participar ou recusar.     |   87 |
 
 ## Prototipação do Sistema
-<br>Cadastro<br>
+Cadastro<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716901-338fa6d9-029b-42c5-a2b7-8bc4848aea69.png)
 
-<br>Login<br>
+Login<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716908-eb7bae39-b320-4bca-96a4-6f7d0572ebfa.png)
 
-<br>Home Todos os Eventos<br>
+Home Todos os Eventos<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716618-f003affe-1e15-4e2f-9f5c-2582b9b38d77.png)
 
-<br>Meus Eventos<br>
+Meus Eventos<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716920-5d5c78b1-7cb4-40e9-86e2-82f0af75df83.png)
 
-<br>Convites/Eventos Pendentes<br>
+Convites/Eventos Pendentes<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716950-db6c0ac3-8a7e-494f-93d0-df25dfeb988c.png)
 
-<br>Evento Convite/Pendente<br>
+Evento Convite/Pendente<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716957-e20c77fb-6c2a-4fa8-b7d3-280144d216e3.png)
 
-<br>Criar Evento<br>
+Criar Evento<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716967-6b5a4085-e020-4801-817d-7adda55f66cf.png)
 
-<br>Evento em Sugestão<br>
+Evento em Sugestão<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716975-ee4c329d-fb5f-4aad-b096-180620fc6919.png)
 
 <br>Evento em Votação<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716980-7d099a76-fb67-4755-aa93-e30c702bc8e4.png)
 
-<br>Evento Marcado<br>
+Evento Marcado<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716987-432bcb2c-c8c8-4fcb-bf82-ad259f9ee632.png)
 
-<br>Perfil<br>
+Perfil<br>
 ![image](https://user-images.githubusercontent.com/51335663/145717000-f93ea421-d6cb-4c87-9f90-97a064702afe.png)
 
-<br>
+## Revisão de Usabilidade
+
+Revisão dos nomes/labels de textos e botões da interface<br><br>
+
+Revisão do fluxo de utilização do app para as telas de eventos<br>
 
 ## Modelo conceitual/Classe do projeto
 
