@@ -1,11 +1,6 @@
-Exemplo de documentação do trabalho
-
-
 ## Introdução
 
-[Coloque aqui uma explicação inicial do seu trabalho explicando quais os seus objetivos e características]
-
-Este projeto é um exemplo de como construir uma documentação do seu trabalho.
+Nosso projeto consiste em criar um aplicação cujo o propósito principal consiste na interação entre as pessoas para ajudar a marcar e organizar encontros entre elas para qualquer tipo de finalidade, onde é possível criar novos eventos e visualizar os que já participa ou foi convidado, sendo o uso intuitivo e o acesso facilitado para todos os usuários.
 
 ## Project Model Canvas
 
