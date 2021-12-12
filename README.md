@@ -76,7 +76,7 @@ Perfil<br>
 
 ## Revisão de Usabilidade
 
-Revisão dos nomes/labels de textos e botões da interface<br><br>
+Revisão dos nomes/labels de textos e botões da interface<br>
 
 Revisão do fluxo de utilização do app para as telas de eventos<br>
 
