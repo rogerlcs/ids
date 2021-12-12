@@ -44,6 +44,8 @@ Exemplo:
 ![image](https://user-images.githubusercontent.com/51335663/145715957-59c744d1-1016-45d2-a86f-5c4999f5f26b.png)<br>Cadastro<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716061-0f624278-043e-44f6-8719-ee062ae83824.png)<br>Login<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716115-0588e587-4466-4f33-98a8-0637a363dde5.png)<br>Home Todos os Eventos<br>
+![image](https://user-images.githubusercontent.com/51335663/145716618-f003affe-1e15-4e2f-9f5c-2582b9b38d77.png)
+
 ![image](https://user-images.githubusercontent.com/51335663/145716071-85ffa659-8eea-4902-9f1c-784c48b7c304.png)<br>Meus Eventos<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716162-8173923f-9a34-4154-a9a6-5d65a3aafa56.png)<br>Convites/Eventos Pendentes<br>
 ![image](https://user-images.githubusercontent.com/51335663/145716288-e13e7579-b75c-48cc-9b4e-f96a9dd1b11c.png)<br>Evento Convite/Pendente<br>
@@ -60,19 +62,25 @@ Exemplo:
 
 
 ## Projeto do sistema
+  ### Tecnologias e linguagens utilizadas
+   #### Do lado cliente mobile
+   Android Studio
+   Linguagem java
+   Github
 
-
-## Telas do sistema ( Coloque aqui a versão final das telas do sistema)
-
-Para cada tela do sistema voçê deve adicionar uma imagem e uma descrição da tela.
-
-A figura abaixa é exibido a tela de busca do sistema. Nessa tela é possível fazer uma busca informando o termo que se deseja buscar.
-Como resultado ela exibirá uma lista de links relacionados a esse termo informado. 
-            
+#### Do lado servidor:
+   Linguagem php
+   Postgresql como banco de dados
+   Heroku
+   Github
+   WampServer e USBWebServer para rodar o php localmente
+   Sublime Text
+   Bibliotecas:
+   Respect\Validation para validação de dados
 
 ## Referências
 
-Wikipedia, Arduino, Disponível em:<https://pt.wikipedia.org/wiki/Arduino> Acessado em 18 de maio de 2021. 
+
 
 
 
